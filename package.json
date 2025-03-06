@@ -23,7 +23,13 @@
     "apple-mcp": "./index.ts"
   },
   "scripts": {
-    "dev": "bun run index.ts"
+    "dev": "bun run index.ts",
+    "start": "bun run index.ts"
+  },
+  "smithery": {
+    "type": "mcp-server",
+    "command": "bunx",
+    "args": ["@nazcamedia/apple-mcp@latest"]
   },
   "devDependencies": {
     "@types/bun": "latest",
