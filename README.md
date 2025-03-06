@@ -1,6 +1,6 @@
 # Apple MCP tools
 
-[![smithery badge](https://smithery.ai/badge/NAZCAMEDIA/apple-mcp)](https://smithery.ai/server/NAZCAMEDIA/apple-mcp)
+[![smithery badge](https://smithery.ai/badge/@nazcamedia/apple-mcp)](https://smithery.ai/server/@nazcamedia/apple-mcp)
 
 This is a collection of apple-native tools for the [MCP protocol](https://modelcontextprotocol.com/docs/mcp-protocol).
 
@@ -27,16 +27,16 @@ Here's a step-by-step video about how to set this up, with a demo. - https://x.c
 
 #### Quick install
 
-To install Apple MCP for Claude Desktop automatically via [Smithery](https://smithery.ai/server/NAZCAMEDIA/apple-mcp):
+To install Apple MCP for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@nazcamedia/apple-mcp):
 
 ```bash
-npx -y @smithery/cli@latest install NAZCAMEDIA/apple-mcp --client claude
+npx -y @smithery/cli@latest install @nazcamedia/apple-mcp --client claude
 ```
 
 ... and for cursor, you can do:
 
 ```bash
-npx -y @smithery/cli@latest install NAZCAMEDIA/apple-mcp --client cursor
+npx -y @smithery/cli@latest install @nazcamedia/apple-mcp --client cursor
 ```
 
 
