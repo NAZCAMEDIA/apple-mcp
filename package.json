@@ -17,7 +17,8 @@
     "notes",
     "messages",
     "mail",
-    "claude"
+    "claude",
+    "smithery"
   ],
   "bin": {
     "apple-mcp": "./index.ts"
@@ -31,7 +32,12 @@
     "command": "bunx",
     "args": [
       "@nazcamedia/apple-mcp@latest"
-    ]
+    ],
+    "clients": {
+      "claude": {
+        "type": "mcp-server"
+      }
+    }
   },
   "devDependencies": {
     "@types/bun": "latest",
