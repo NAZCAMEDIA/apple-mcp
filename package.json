@@ -1,6 +1,6 @@
 {
   "name": "@nazcamedia/apple-mcp",
-  "version": "0.2.6",
+  "version": "0.2.7",
   "module": "index.ts",
   "type": "module",
   "description": "Apple MCP tools for contacts, notes, messages, and mail integration",
@@ -29,7 +29,9 @@
   "smithery": {
     "type": "mcp-server",
     "command": "bunx",
-    "args": ["@nazcamedia/apple-mcp@latest"]
+    "args": [
+      "@nazcamedia/apple-mcp@latest"
+    ]
   },
   "devDependencies": {
     "@types/bun": "latest",
